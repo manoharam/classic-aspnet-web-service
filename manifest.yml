@@ -1,0 +1,9 @@
+﻿---
+applications: 
+- name: aspnet-web-service
+  memory: 256M
+  instances: 2
+  buildpack: hwc_buildpack
+  stack: windows2016
+  env:
+    greeting: heya
